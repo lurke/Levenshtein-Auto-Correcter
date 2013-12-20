@@ -82,7 +82,7 @@ simple.txt
 dict.txt
     A more extensive dictionary of english words used for more in depth searching and matching.
 frequencies.csv
-    A list obtained from [http://www.wordfrequency.info/free.asp](http://www.wordfrequency.info/free.asp) of the most common 5000 
+    A list obtained from http://www.wordfrequency.info/free.asp of the most common 5000 
     english words with their frequencies.  This is used for constructing the dictionary 
     of word frequencies in freq.ml.
 text.txt
