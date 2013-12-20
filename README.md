@@ -72,7 +72,7 @@ spellcheck.ml
 run.ml
     the executable file which takes arguments of either find_matches or spellcheck and runs 
     their corresponding functions.
-    <code>usage: ./run find_matches | spellcheck</code>
+    <code>USAGE: ./run find_matches | spellcheck</code>
 tests.ml
     contains the basic tests for the different (directly testable) components of our algorithm.
 Makefile
