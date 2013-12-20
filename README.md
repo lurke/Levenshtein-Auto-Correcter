@@ -2,7 +2,7 @@
 
 Created by Lauren Urke, Mike Rizzo, Sasha Johnson-Freyd, and Jane Thomas
 
-## Implementing Levenshtein Automata in OCaml ## 
+## Implementing Levenshtein Automata in OCaml
 
 Created by: Lauren Urke, Mike Rizzo, Sasha Johnson-Freyd, and Jane Thomas
 To compile, simply type <code>make</code> in the command line.  This will 
