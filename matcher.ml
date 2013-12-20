@@ -1,4 +1,11 @@
 (* 
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, subject to the conditions
+ * listed in the LAC LICENSE file. The Software is provided WITHOUT ANY 
+ * WARRANTY, EXPRESS OR IMPLIED. This notice is a summary of the Masstree 
+ * LICENSE file; the license in that file is legally binding.
+ * 
  * matcher.ml
  *
  * constructs a matcher object which will return either the correct

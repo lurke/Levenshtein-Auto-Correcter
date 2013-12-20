@@ -1,33 +1,36 @@
-(*********************************************************************
- *
- * Fuzzy Frujt: Implementing Levenshtein Automata in OCaml
- *
- * Created by: Lauren Urke, Mike Rizzo, Sasha Johnson-Freyd, and Jane Thomas
- *
- * To compile, simply type 'make' in the command line.  This will 
- * generate two executable files, 'run' and 'tests.'  run represents 
- * the main corpus of our project while 'tests' has some tests for 
- * our different functions that we use.  Execute tests using 
- * './tests' and it should complete without error.  When executing
- * run, there are two choices, the find_matches function and the 
- * spellcheck one.  To find all the matches of a word a given
- * levenshtein distance away from it in a designated dictionary,
- * use the following command 
- * './run find_matches (word) (distance) (dictionary)'.  As an 
- * example, try executing './run find_matches aba 1 simple.txt'. 
- * This will return with four matches.  
- * To run the spellchecker, use the command
- * './run spellcheck (file) (dictionary)' and the designated will be
- * spellchecked against the dictionary.  Try 
- * './run spellcheck text.txt dict.txt' to try spellchecking an
- * excerpt from the cs51 website against a dictionary.  This will
- * yield four misspelled words and possible matches each a 
- * levenshtein distance of two away from the misspelled word.
- * 
- * Happy Exploring our Project!
- ********************************************************************)
+# Levenshtein Auto-Correcter #
 
+Created by Lauren Urke, Mike Rizzo, Sasha Johnson-Freyd, and Jane Thomas
 
+## Implementing Levenshtein Automata in OCaml ## 
+
+========================================================================
+
+Created by: Lauren Urke, Mike Rizzo, Sasha Johnson-Freyd, and Jane Thomas
+To compile, simply type <code>make</code> in the command line.  This will 
+generate two executable files, 'run' and 'tests.'  run represents 
+the main corpus of our project while 'tests' has some tests for 
+our different functions that we use.  Execute tests using 
+<code>./tests</code> and it should complete without error.  When executing
+run, there are two choices, the find_matches function and the 
+spellcheck one.  To find all the matches of a word a given
+levenshtein distance away from it in a designated dictionary,
+use the following command 
+<code>./run find_matches (word) (distance) (dictionary)</code>  
+As an example, try executing 
+<code>./run find_matches aba 1 simple.txt</code>
+This will return with four matches.  
+To run the spellchecker, use the command
+<code>./run spellcheck (file) (dictionary)</code>
+and the designated will be spellchecked against the dictionary.  Try 
+<code>./run spellcheck text.txt dict.txt</code>
+to try spellchecking an excerpt from Harvard's CS51 website against a dictionary.  This will
+yield four misspelled words and possible matches each a 
+levenshtein distance of two away from the misspelled word.
+
+### Contents ###
+
+<pre>
 order.ml
     from moogle. defines the different order types for comparison used in the dict and set
 type.ml
@@ -75,3 +78,4 @@ frequencies.csv
     A list obtained from http://www.wordfrequency.info/free.asp of the most common 5000 english words with their frequencies.  This is used for constructing the dictionary of word frequencies in freq.ml.
 text.txt
     A simple text file excerpted from the cs51 website used for basic testing of spellcheck
+</pre>
